@@ -1,0 +1,47 @@
+
+.diction-list {
+    width: 70rpx;
+    position: fixed;
+    padding: 2% 0;
+    right: 5rpx;
+    top: 80rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+    font-size: 30rpx;
+    margin-right: 10rpx;
+    background-color: rgb(219, 241, 245);
+    border-radius: 35rpx;
+}
+.diction-list-item {
+    width: 50rpx;
+    height: 50rpx;
+    text-align: center;
+    border-radius: 50%;
+}
+.diction-list-item:active {
+    background-color: rgb(159, 204, 226);
+}
+.top-bar {
+    height: 70rpx;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-bar-item {
+    position: relative;
+}
+.active::after {
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+    bottom: -5rpx;
+    left: 6rpx;
+    right: 6rpx;
+    border-bottom: rgb(138, 207, 138) 6rpx solid;
+    /* opacity: 1; */
+    transition: all 0.5s;
+}
+

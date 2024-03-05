@@ -1,0 +1,9 @@
+
+.night {
+	background-color: black !important;
+	color: #fff !important;
+	-webkit-filter: brightness(0.7);
+	        filter: brightness(0.7);
+	height: 100vh;
+}
+

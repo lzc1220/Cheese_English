@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* component/list-card/list-card.wxss */
+.list-card-item {
+    height: 70rpx;
+    margin: 4rpx 0;
+    line-height: 70rpx;
+    padding-left: 30rpx;
+    border-radius: 8%;
+    margin-right: 90rpx;
+    background-color: rgb(219, 241, 245);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+

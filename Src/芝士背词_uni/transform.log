@@ -1,0 +1,165 @@
+miniprogram-to-uniapp v2 转换日志
+
+工具版本：v2.0.24
+转换模式：HBuilder X
+是否合并css：是
+项目 '芝士背词' 开始转换...
+sourceFolder = D:/workArea/芝士背词
+搜索到631个文件，耗时：80ms
+
+[Tip]文件(component/ec-canvas/echarts.js)体积大于 204.8 kb ，跳过处理
+[Tip]文件(miniprogram_npm/zrender/index.js)体积大于 204.8 kb ，跳过处理
+
+[Tip]这个页面的结构非标准结构，尝试修复一下，如有问题，请先调整后，再转换。 file:miniprogram_npm/@vant/weapp/common/component
+
+[Tip]这里引用的全是网络字体，可能在app上面有兼容问题（如字体图标显示不出来，运行后没问题就不用管）  fileKey: miniprogram_npm/@vant/weapp/icon/index
+
+[Tip]这个页面的结构非标准结构，无法自动修复! 请先调整后，再转换。 file:miniprogram_npm/mobx-miniprogram-bindings/index
+[Error]Component异常情况(建议把源代码修改为简单结构，如Component({})，再尝试转换)
+file:D:\workArea\芝士背词\miniprogram_npm\mobx-miniprogram-bindings\index.js
+ var _ = (r, i) => () => (i || r((i = {
+  exports: {}
+}).exports, i), i.exports);
+
+var y = _(d => {
+  "use strict";
+
+  Object.defineProperty(d, "__esModule", {
+    value: !0
+  }), d.createActions = d.createDataFieldsReactions = void 0;
+
+  v
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/button/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: page-myinfo/pages/config/@vant/weapp/cell/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/button/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/button/index
+找不到这个组件: page-myinfo/pages/config/@vant/weapp/cell/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/button/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/button/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: page-myinfo/pages/config/@vant/weapp/cell/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/overlay/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: page-home/pages/article-detail/@vant/weapp/field/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/overlay/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+格式化Error: fileKey: miniprogram_npm/mobx-miniprogram-bindings/index     type:js       error： SyntaxError: Unexpected token (217:93)
+  215 |
+  216 | function I(r) {
+> 217 |   return Array.isArray(r.behaviors) || (r.behaviors = []), r.behaviors.unshift(v.behavior), export default r;
+      |                                                                                             ^
+  218 | }
+  219 |
+  220 | function W(r) {
+    at p (D:\download\HBuilderX\plugins\miniprogram-to-uniapp\node_modules\miniprogram-to-uniapp\src\utils\prettier\parser-babel.js:22:1038)
+    at d (D:\download\HBuilderX\plugins\miniprogram-to-uniapp\node_modules\miniprogram-to-uniapp\src\utils\prettier\parser-babel.js:22:1271)
+    at Object.parse (D:\download\HBuilderX\plugins\miniprogram-to-uniapp\node_modules\miniprogram-to-uniapp\src\utils\prettier\parser-babel.js:27:50335)
+    at Object.m [as parse] (D:\download\HBuilderX\plugins\miniprogram-to-uniapp\node_modules\miniprogram-to-uniapp\src\utils\prettier\standalone.js:40:1355)
+    at b (D:\download\HBuilderX\plugins\miniprogram-to-uniapp\node_modules\miniprogram-to-uniapp\src\utils\prettier\standalone.js:41:15054)
+    at D (D:\download\HBuilderX\plugins\miniprogram-to-uniapp\node_modules\miniprogram-to-uniapp\src\utils\prettier\standalone.js:45:576)
+    at D:\download\HBuilderX\plugins\miniprogram-to-uniapp\node_modules\miniprogram-to-uniapp\src\utils\prettier\standalone.js:115:7299
+    at Object.format (D:\download\HBuilderX\plugins\miniprogram-to-uniapp\node_modules\miniprogram-to-uniapp\src\utils\prettier\standalone.js:115:7390)
+    at formateByPrettier (D:\download\HBuilderX\plugins\miniprogram-to-uniapp\node_modules\miniprogram-to-uniapp\src\utils\formatUtils.js:187:24)
+    at Object.formatCode (D:\download\HBuilderX\plugins\miniprogram-to-uniapp\node_modules\miniprogram-to-uniapp\src\utils\formatUtils.js:159:19) {
+  loc: { start: { line: 217, column: 93 } },
+  codeFrame: '  215 |\n' +
+    '  216 | function I(r) {\n' +
+    '> 217 |   return Array.isArray(r.behaviors) || (r.behaviors = []), r.behaviors.unshift(v.behavior), export default r;\n' +
+    '      |                                                                                             ^\n' +
+    '  218 | }\n' +
+    '  219 |\n' +
+    '  220 | function W(r) {'
+}
+找不到这个组件: pages/myInfo/@vant/weapp/notify/index
+找不到这个组件: page-find/pages/thoughts/@vant/weapp/dialog/index
+找不到这个组件: page-home/pages/article-detail/@vant/weapp/field/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/button/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/button/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/button/index
+找不到这个组件: page-home/pages/article-detail/@vant/weapp/field/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/button/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/button/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/search/index
+找不到这个组件: page-home/pages/solo/@vant/weapp/overlay/index
+找不到这个组件: pages/myInfo/@vant/weapp/notify/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: component/list-card
+找不到这个组件: page-myinfo/pages/config/@vant/weapp/cell-group/index
+找不到这个组件: page-myinfo/pages/config/@vant/weapp/cell/index
+找不到这个组件: page-myinfo/pages/config/@vant/weapp/cell/index
+找不到这个组件: page-myinfo/pages/config/@vant/weapp/cell/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/myInfo/@vant/weapp/calendar/index
+找不到这个组件: pages/home/@vant/weapp/icon/index
+找不到这个组件: pages/myInfo/@vant/weapp/notify/index
+找不到这个组件: pages/myInfo/@vant/weapp/calendar/index
+write pages.json success!
+write manifest.json success!
+write main.js success!
+
+
+统计信息：
+
+vue文件数量: 82
+支付api数量: 0
+登录api数量: 2
+
+恭喜你，转换完成！
+用时: 37.943s
+工具版本：v2.0.24
+在该小程序项目的同级目录可以看到_uni结尾的项目，即是转换好的uniapp项目，相关日志在该目录里。
+
+！！！ 当前项目引用了npm模块，请转换完后，在命令行里运行“npm install”命令安装npm模块 ！！！
+
+使用说明：
+    1.因各种原因，本工具并非100%完美转换！有问题实属正常！
+    2.如遇运行报错，请添加QQ群(780359397、361784059、603659851)带图反馈或https://github.com/zhangdaren/miniprogram-to-uniapp提交Issue！
+    3.更多信息请查阅转换后目录里的 README.md 和 transform.log
+
+
+hbxExecutableProgram  D:\download\HBuilderX\HBuilderX.exe
+stdout: 
+stderr: 
+buffer sync supports: []
+call deactive unicloud
+call deactive uni_modules
+call deactive hbuilderx-language-services
+diagnostics.$clear
+call deactive uniapp-basic
+call deactive miniprogram-to-uniapp
+[TypeScript] [Info  - 05:32:04.310] TSServer exited
+[TypeScript] [Info  - 05:32:04.311] Starting TS Server 
+[TypeScript] [Info  - 05:32:04.311] Not starting server. Disposed 

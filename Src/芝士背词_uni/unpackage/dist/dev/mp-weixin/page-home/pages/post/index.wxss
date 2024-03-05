@@ -1,0 +1,24 @@
+
+.post-img {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+.post-text {
+    color: white;
+    position: absolute;
+    bottom: 10vh;
+    left: 10vw;
+}
+.date {
+    font-size: 1.5rem;
+}
+.year {
+    font-size: 1.1rem;
+}
+.d {
+    color: yellow;
+    margin-bottom: 0.8rem;
+}
+

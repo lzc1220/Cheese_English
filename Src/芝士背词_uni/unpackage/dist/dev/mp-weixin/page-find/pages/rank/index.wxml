@@ -1,0 +1,1 @@
+<view class="rank"><view class="no1"><image class="no1-bg" src="/static/assets/img/swiper/5E63E5C92BCC78AAE5F98B4764AB7236.jpg"></image><rank-item vue-id="6e55dcc6-1" wordCount="{{999}}" rank="No.1" fontColor="white" size="{{150}}" bind:__l="__l"></rank-item></view><view class="common"></view></view>

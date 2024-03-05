@@ -1,0 +1,70 @@
+
+.header {
+	margin-top: 50rpx;
+	background-color: white;
+	width: 100%;
+	height: 100rpx;
+	display: flex;
+	background: rgba(0, 0, 0, 0);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.header-img {
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+}
+
+/**index.wxss**/
+ec-canvas {
+	width: 100%;
+	height: 500rpx;
+}
+.text {
+	position: absolute;
+	bottom: 20rpx;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	position: relative;
+	margin-top: 50rpx;
+}
+.info {
+	margin-top: 60rpx;
+	border-radius: 30rpx;
+	display: flex;
+	justify-content: space-around;
+	flex: 1;
+	flex-wrap: wrap;
+	/* align-items: center; */
+	align-content: flex-start;
+}
+.info-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo {
+	width: 35%;
+	position: fixed;
+	right: 10%;
+	bottom: 5%;
+}
+.myinfo {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	transition: all 0.5s;
+}
+.night {
+	background-color: black !important;
+	color: #fff !important;
+	-webkit-filter: brightness(0.7);
+	        filter: brightness(0.7);
+}
+

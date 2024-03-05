@@ -1,0 +1,15 @@
+
+.text-area {
+    padding: 40rpx;
+    background-color: rgb(238, 240, 149);
+    border-radius: 10rpx;
+    margin: 30rpx;
+}
+.a {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+.myWx {
+    width: 300rpx;
+}
+

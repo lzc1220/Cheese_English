@@ -1,0 +1,72 @@
+
+.swiper {
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 60rpx;
+	overflow: hidden;
+}
+.swiper-img {
+	width: 100%;
+}
+.blue-bg {
+	height: 200rpx;
+	background-color: rgb(187, 238, 247);
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+.find {
+	position: relative;
+	height: 100vh;
+	transition: all 0.5s;
+}
+.find-menu {
+	display: flex;
+	margin-top: 20rpx;
+	gap: 20rpx;
+	padding: 0 20rpx;
+	flex-wrap: wrap;
+	height: 200rpx;
+	overflow: hidden;
+	position: relative;
+	transition: height 0.5s;
+}
+.more {
+	position: absolute;
+	top: 10rpx;
+	right: 10rpx;
+	font-size: 30rpx;
+	flex-wrap: wrap;
+	width: 0.6rem;
+	background-color: rgb(187, 238, 247);
+	border-radius: 60px;
+	padding: 0 30rpx;
+	text-align: center;
+	height: 150rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* vertical-align: top; */
+	/* overflow: visible; */
+}
+.night {
+	background-color: black !important;
+	color: #fff !important;
+	-webkit-filter: brightness(0.7) ；;
+	        filter: brightness(0.7) ；;
+}
+.bottom {
+	width: 50rpx;
+	height: 50rpx;
+}
+.top-slot {
+	width: 50rpx;
+	height: 100%;
+}
+.bottom-slot {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+

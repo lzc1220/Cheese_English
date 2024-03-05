@@ -1,0 +1,24 @@
+
+.no1 {
+    height: 350rpx;
+    position: relative;
+}
+.no1-detail {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: white;
+    gap: 40rpx;
+}
+.avatar {
+    flex: 1;
+}
+.rank {
+    padding-left: 20rpx;
+}
+.count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

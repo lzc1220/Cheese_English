@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['onClick',['$event']]]]]}}" class="find-btn" style="{{('background-color:'+bgc)}}" bindtap="__e"><view class="find-btn-title">{{title}}</view><view class="find-btn-digest">{{digest}}</view></view>

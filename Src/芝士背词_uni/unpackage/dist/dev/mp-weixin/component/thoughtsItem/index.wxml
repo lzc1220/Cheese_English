@@ -1,0 +1,1 @@
+<view class="thought-item"><view class="thought-item-title">{{''+content+''}}</view></view>

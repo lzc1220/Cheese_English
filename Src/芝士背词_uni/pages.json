@@ -1,0 +1,126 @@
+{
+
+	"pages": [{
+			"path": "pages/home/index"
+		},
+		{
+			"path": "pages/find/index"
+		},
+		{
+			"path": "pages/myInfo/index"
+		}
+	],
+	"subPackages": [{
+			"root": "page-find",
+			"pages": [{
+					"path": "pages/rank/index",
+					"name": "pFind",
+					"style": {}
+				},
+				{
+					"path": "pages/thoughts/index",
+					"name": "pFind",
+					"style": {}
+				},
+				{
+					"path": "pages/thoughtsBook/index",
+					"name": "pFind",
+					"style": {}
+				}
+			]
+		},
+		{
+			"root": "page-home",
+			"pages": [{
+					"path": "pages/post/index",
+					"name": "pHome",
+					"style": {}
+				},
+				{
+					"path": "pages/searchDetail/index",
+					"name": "pHome",
+					"style": {}
+				},
+				{
+					"path": "pages/solo/index",
+					"name": "pHome",
+					"style": {}
+				},
+				{
+					"path": "pages/word/index",
+					"name": "pHome",
+					"style": {}
+				},
+				{
+					"path": "pages/wordBook/index",
+					"name": "pHome",
+					"style": {}
+				},
+				{
+					"path": "pages/article-detail/index",
+					"name": "pHome",
+					"style": {}
+				}
+			]
+		},
+		{
+			"root": "page-myinfo",
+			"pages": [{
+					"path": "pages/config/index",
+					"name": "pMyinfo",
+					"style": {}
+				},
+				{
+					"path": "pages/aboutAs/index",
+					"name": "pMyinfo",
+					"style": {}
+				}
+			]
+		}
+	],
+	"tabBar": {
+		"position": "bottom",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "单词",
+				"iconPath": "static/assets/img/word.png",
+				"selectedIconPath": "static/assets/img/word_active.png"
+			},
+			{
+				"pagePath": "pages/find/index",
+				"text": "发现",
+				"iconPath": "static/assets/img/find.png",
+				"selectedIconPath": "static/assets/img/find_active.png"
+			},
+			{
+				"pagePath": "pages/myInfo/index",
+				"text": "我",
+				"iconPath": "static/assets/img/myinfo.png",
+				"selectedIconPath": "static/assets/img/myinfo_active.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json",
+	"networkTimeout": {
+		"request": 6000
+	},
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "Weixin",
+		"navigationBarTextStyle": "black",
+		"usingComponents": {
+			"van-icon": "static/miniprogram_npm/@vant/weapp/icon/index",
+			"van-calendar": "static/miniprogram_npm/@vant/weapp/calendar/index",
+			"van-notify": "static/miniprogram_npm/@vant/weapp/notify/index",
+			"van-button": "static/miniprogram_npm/@vant/weapp/button/index",
+			"van-dialog": "static/miniprogram_npm/@vant/weapp/dialog/index",
+			"van-search": "static/miniprogram_npm/@vant/weapp/search/index",
+			"van-overlay": "static/miniprogram_npm/@vant/weapp/overlay/index",
+			"van-cell": "static/miniprogram_npm/@vant/weapp/cell/index",
+			"van-cell-group": "static/miniprogram_npm/@vant/weapp/cell-group/index",
+			"ec-canvas": "static/ec-canvas/ec-canvas"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+server:
+  port: 8079
+
+spring:
+  jackson:
+    property-naming-strategy: LOWER_CAMEL_CASE
+  redis:
+    jedis:
+      pool:
+        min-idle: 5
+        max-active: 10
+        max-idle: 10
+        max-wait: 2000
+    port: 6379
+    host: localhost
+    timeout: 1000
+

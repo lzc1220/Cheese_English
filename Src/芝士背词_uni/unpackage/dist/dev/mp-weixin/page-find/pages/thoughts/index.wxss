@@ -1,0 +1,35 @@
+
+.choose {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 175rpx;
+}
+.input {
+	flex: 1;
+	overflow: scroll;
+}
+.thoughts {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	position: relative;
+}
+.notify {
+	position: absolute;
+	top: 0;
+}
+.clear {
+	border-radius: 999rpx;
+	width: 70rpx;
+	height: 70rpx;
+	position: absolute;
+	bottom: 180rpx;
+	right: 10rpx;
+	z-index: 10;
+	background-color: rgb(211, 209, 209);
+	text-align: center;
+	line-height: 70rpx;
+	font-size: 50rpx;
+}
+

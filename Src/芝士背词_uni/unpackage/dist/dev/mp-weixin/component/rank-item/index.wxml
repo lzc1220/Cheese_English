@@ -1,0 +1,1 @@
+<view class="no1-detail" style="{{('color:'+fontColor)}}"><view class="rank">{{rank}}</view><view class="avatar"><avatar vue-id="7ab50802-1" size="{{size}}" bind:__l="__l"></avatar></view><view class="count"><view>背词数</view><view>{{wordCount}}</view></view><view></view></view>

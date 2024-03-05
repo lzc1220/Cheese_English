@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "find-btn": "/component/find-btn/index",
+    "idea": "/component/idea/index"
+  }
+}

@@ -1,0 +1,1 @@
+<view><image class="post-img" src="/static/assets/img/swiper/B6F947C3A70824727639B21A78C9B1E5.jpg"></image><view class="post-text"><view class="d"><text class="date">{{date}}</text><text class="month" decode="{{true}}">{{month+''}}</text><text class="year">{{year}}</text></view><view>Keep on going never give up</view><view>一往无前，永不言弃</view></view></view>

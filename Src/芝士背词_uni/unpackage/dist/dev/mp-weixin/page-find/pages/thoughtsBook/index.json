@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "thought-item": "/component/thoughtsItem/index"
+  }
+}

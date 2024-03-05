@@ -1,0 +1,1 @@
+<view><view class="text-area"><view>亲爱的用户，您好</view><view>感谢您使用我们的产品</view><view>使用过程中有任何问题、建议请随时联系我们，感谢您的支持</view><view>希望我们的产品对您学习英语有所帮助</view></view><view class="text-area"><view>我们来自华中科技大学计卓2001班</view><view>这是我们的软件工程大作业</view><view class="_p">项目开源仓库</view><view data-event-opts="{{[['tap',[['gitAddress',['$event']]]]]}}" class="a _p" bindtap="__e">点击复制到粘贴板</view></view></view>

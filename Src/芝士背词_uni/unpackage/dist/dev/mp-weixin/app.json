@@ -1,0 +1,86 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/find/index",
+    "pages/myInfo/index"
+  ],
+  "subPackages": [
+    {
+      "root": "page-find",
+      "pages": [
+        "pages/rank/index",
+        "pages/thoughts/index",
+        "pages/thoughtsBook/index"
+      ]
+    },
+    {
+      "root": "page-home",
+      "pages": [
+        "pages/post/index",
+        "pages/searchDetail/index",
+        "pages/solo/index",
+        "pages/word/index",
+        "pages/wordBook/index",
+        "pages/article-detail/index"
+      ]
+    },
+    {
+      "root": "page-myinfo",
+      "pages": [
+        "pages/config/index",
+        "pages/aboutAs/index"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "单词",
+        "iconPath": "static/assets/img/word.png",
+        "selectedIconPath": "static/assets/img/word_active.png"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "text": "发现",
+        "iconPath": "static/assets/img/find.png",
+        "selectedIconPath": "static/assets/img/find_active.png"
+      },
+      {
+        "pagePath": "pages/myInfo/index",
+        "text": "我",
+        "iconPath": "static/assets/img/myinfo.png",
+        "selectedIconPath": "static/assets/img/myinfo_active.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 6000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "plugins": {},
+  "usingComponents": {
+    "van-icon": "static/miniprogram_npm/@vant/weapp/icon/index",
+    "van-calendar": "static/miniprogram_npm/@vant/weapp/calendar/index",
+    "van-notify": "static/miniprogram_npm/@vant/weapp/notify/index",
+    "van-button": "static/miniprogram_npm/@vant/weapp/button/index",
+    "van-dialog": "static/miniprogram_npm/@vant/weapp/dialog/index",
+    "van-search": "static/miniprogram_npm/@vant/weapp/search/index",
+    "van-overlay": "static/miniprogram_npm/@vant/weapp/overlay/index",
+    "van-cell": "static/miniprogram_npm/@vant/weapp/cell/index",
+    "van-cell-group": "static/miniprogram_npm/@vant/weapp/cell-group/index",
+    "ec-canvas": "static/ec-canvas/ec-canvas"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="{{['content '+mainStyle]}}" style="{{('height: '+height+'; font-size: '+fontSize+';background-color: '+bgColor+';')}}">{{content}}</view>

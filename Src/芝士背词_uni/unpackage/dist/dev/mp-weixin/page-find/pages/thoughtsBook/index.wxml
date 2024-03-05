@@ -1,0 +1,1 @@
+<view class="thoughtsBook"><block wx:for="{{thoughtList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><thought-item vue-id="{{'db09ebe2-1-'+index}}" content="{{item}}" bind:__l="__l"></thought-item></block></view>

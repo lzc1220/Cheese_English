@@ -1,0 +1,15 @@
+
+.find-btn {
+    border-radius: 50rpx;
+    width: 300rpx;
+    height: 200rpx;
+    padding: 20rpx;
+    box-sizing: border-box;
+}
+.find-btn-title {
+    font-size: 1.3rem;
+}
+.find-btn-digest {
+    color: rgb(77, 76, 76);
+}
+

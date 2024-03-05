@@ -1,0 +1,11 @@
+
+.history-item {
+    background-color: rgb(239, 241, 237);
+    margin: 10rpx 20rpx;
+    border-radius: 20rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rpx 10rpx;
+}
+

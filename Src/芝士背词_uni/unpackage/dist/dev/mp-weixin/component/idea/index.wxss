@@ -1,0 +1,22 @@
+
+.idea {
+	display: flex;
+	flex-direction: column;
+	gap: 30rpx;
+	margin: 10rpx auto;
+	border-radius: 50rpx;
+	border: 3rpx solid rgb(158, 158, 158);
+	box-shadow: 2px 2px rgb(158, 158, 158);
+	padding: 20rpx 0;
+	width: 92%;
+}
+.idea-title {
+	padding: 0 40rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.idea-title-text {
+	font-size: 1.1rem;
+}
+

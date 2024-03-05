@@ -1,0 +1,158 @@
+
+.solo-top-bg {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: -1;
+	-webkit-filter: blur(4px);
+	        filter: blur(4px);
+}
+.solo {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+.solo-top {
+	position: relative;
+	height: 190rpx;
+}
+.readyStatus-item {
+	font-size: large;
+}
+.top-avatar {
+	position: absolute;
+	top: 50%;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 30rpx;
+}
+.l {
+	left: 17%;
+	translate: 0 -50%;
+}
+.c {
+	left: 50%;
+	translate: -50% -50%;
+}
+.r {
+	right: 17%;
+	translate: 0 -50%;
+}
+.title {
+	font-size: larger;
+	text-align: center;
+	margin-top: 20px;
+}
+.solo-title {
+	font-size: larger;
+	text-align: center;
+}
+.button {
+	padding: 0;
+	margin: 0;
+	width: 10rem;
+	margin: 0 auto;
+	border: 3rpx solid rgb(223, 248, 248);
+	box-shadow: 2px 2px rgb(185, 219, 218);
+	outline: none;
+}
+.share-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+.solo-noplayer {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.solo-player {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: auto;
+}
+.van-search {
+	bottom: 2rpx;
+	width: 100%;
+	border-radius: 50px;
+}
+.time {
+	font-size: 70rpx;
+	text-align: center;
+	color: rgb(236, 218, 178);
+	overflow: visible;
+	padding-top: 20rpx;
+}
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 26rpx;
+}
+.scroll {
+	flex: 1;
+	overflow: hidden;
+}
+.scroll_ {
+	height: 100%;
+	max-height: 100%;
+}
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.quit-card {
+	background-color: green;
+	width: 500rpx;
+	height: 400rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10%;
+	position: relative;
+	border-radius: 38rpx;
+}
+.chacha {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	border-radius: 999px;
+	width: 40px;
+	height: 40px;
+	background-color: pink;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+.quit-card-title {
+	font-size: 1rem;
+	border-radius: 30rpx;
+	padding: 10rpx 15rpx;
+}
+.quit-card-goback {
+	border-radius: 30rpx;
+	padding: 10rpx 15rpx;
+	display: inline-block;
+	background-color: rgb(224, 159, 159);
+}
+.wait-for-ready {
+	flex: 1;
+}
+.wait-for-ready {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+

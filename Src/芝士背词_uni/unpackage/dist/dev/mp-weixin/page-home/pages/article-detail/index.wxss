@@ -1,0 +1,44 @@
+
+.bg-img {
+	-webkit-filter: blur(2.5px);
+	        filter: blur(2.5px);
+	z-index: -1;
+	position: fixed;
+}
+.bg {
+	height: 200rpx;
+	/* position: sticky; */
+}
+.article-detail-content {
+	width: 88%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-color: rgb(196, 240, 229);
+	border-radius: 50rpx;
+	padding: 3%;
+	flex: 1;
+}
+.header {
+	top: 0;
+	position: -webkit-sticky;
+	position: sticky;
+	z-index: 1;
+	width: 68%;
+	margin: 0 auto;
+	border-radius: 50rpx;
+	font-size: x-large;
+}
+.input {
+	position: fixed;
+	bottom: 10rpx;
+	left: 10rpx;
+	right: 10rpx;
+}
+page {
+	padding-bottom: 100rpx;
+}
+.comment-item {
+	font-size: 40rpx;
+	border: 2rpx solid rgb(168, 204, 198);
+}
+
